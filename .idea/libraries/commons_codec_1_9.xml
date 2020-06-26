@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-ooxml-3.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-ooxml-schemas-3.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xmlbeans-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/lib" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

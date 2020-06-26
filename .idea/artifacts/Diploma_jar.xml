@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Diploma:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Diploma_jar</output-path>
+    <root id="archive" name="Diploma.jar">
+      <element id="module-output" name="Diploma" />
+      <element id="library" level="project" name="commons-codec-1.9" />
+      <element id="library" level="project" name="mssql-jdbc-6.4.0.jre9" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/graf.xlsx" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="283.0" y="523.0">staff.recruiment.Autorization</node>
+    <node x="60.0" y="509.0">staff.recruiment.Challenger</node>
+    <node x="198.0" y="350.0">staff.recruiment.Main</node>
+    <node x="115.0" y="133.0">staff.recruiment.Graphs</node>
+    <node x="612.0" y="673.0">staff.recruiment.Grading</node>
+    <node x="406.0" y="263.0">staff.recruiment.Vacant_position</node>
+    <node x="254.0" y="0.0">staff.recruiment.Graphs.Osnovnoe</node>
+    <node x="38.0" y="326.0">staff.recruiment.formuls</node>
+    <node x="0.0" y="40.0">staff.recruiment.Graphs.Best_challenger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="staff.recruiment.Graphs.Osnovnoe" target="staff.recruiment.Graphs">
+      <point x="16.84699083689862" y="0.0" />
+      <point x="16.84699083689864" y="0.0" />
+    </edge>
+    <edge source="staff.recruiment.Main" target="staff.recruiment.Vacant_position">
+      <point x="0.0" y="5.419753567756295" />
+      <point x="0.0" y="5.419753567756317" />
+    </edge>
+    <edge source="staff.recruiment.Main" target="staff.recruiment.Challenger">
+      <point x="-6.620598513027453" y="0.0" />
+      <point x="-6.620598513027431" y="0.0" />
+    </edge>
+    <edge source="staff.recruiment.Grading" target="staff.recruiment.Autorization">
+      <point x="0.0" y="10.892173891247694" />
+      <point x="0.0" y="10.892173891247666" />
+    </edge>
+    <edge source="staff.recruiment.Autorization" target="staff.recruiment.Grading">
+      <point x="0.0" y="-10.892173891247637" />
+      <point x="0.0" y="-10.892173891247694" />
+    </edge>
+    <edge source="staff.recruiment.Graphs" target="staff.recruiment.Graphs.Osnovnoe">
+      <point x="-16.8469908368986" y="0.0" />
+      <point x="-16.846990836898648" y="0.0" />
+    </edge>
+    <edge source="staff.recruiment.Main" target="staff.recruiment.Graphs">
+      <point x="-4.809816257046997" y="1.3658944225109177" />
+      <point x="-4.80981625704699" y="1.3658944225109053" />
+    </edge>
+    <edge source="staff.recruiment.Autorization" target="staff.recruiment.Main">
+      <point x="-4.152876175276759" y="2.784532182040408" />
+      <point x="-4.152876175276759" y="2.7845321820404045" />
+    </edge>
+    <edge source="staff.recruiment.Main" target="staff.recruiment.formuls">
+      <point x="0.0" y="-5.234417982570468" />
+      <point x="0.0" y="-5.234417982570477" />
+    </edge>
+    <edge source="staff.recruiment.Graphs.Best_challenger" target="staff.recruiment.Graphs">
+      <point x="22.896828275076416" y="0.0" />
+      <point x="0.0" y="-19.853578947376377" />
+    </edge>
+    <edge source="staff.recruiment.Graphs" target="staff.recruiment.Graphs.Best_challenger">
+      <point x="-3.2755628464768023" y="3.7776564214842097" />
+      <point x="-3.2755628464768165" y="3.7776564214842097" />
+    </edge>
+    <edge source="staff.recruiment.Graphs" target="staff.recruiment.formuls">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8454849498327759" x="380.9333252300762" y="353.66218230204845" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

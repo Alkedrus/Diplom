@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="staff.recruiment.Grading">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="1186" height="510"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="77e19" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="fab86" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="eeb36">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <grid id="984e9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="2b306" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6ef20" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <vspacer id="6c31d">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="cce9f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.1 Ответственность"/>
+                </properties>
+              </component>
+              <component id="4e450" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.2. Работоспособность"/>
+                </properties>
+              </component>
+              <component id="5d049" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.3. Коммуникабельность"/>
+                </properties>
+              </component>
+              <component id="c5ba5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.4. Готовность к труду"/>
+                </properties>
+              </component>
+              <component id="e4a85" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.5. Лидерский потенциал"/>
+                </properties>
+              </component>
+              <component id="11e23" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.6. Личная инициатива"/>
+                </properties>
+              </component>
+              <component id="d7e6f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.7. Решительность"/>
+                </properties>
+              </component>
+              <component id="205b2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="1.8. Лояльность к компании"/>
+                </properties>
+              </component>
+              <component id="e389a" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="a81d3" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="16826" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="2f1ec" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="98a63" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="f5408" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="850d" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="9e3a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="2.1. Знание нормативных документов"/>
+                </properties>
+              </component>
+              <component id="5bd20" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="2.2. Планирование"/>
+                </properties>
+              </component>
+              <component id="6969a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="2.3. Проффесиональная грамотность"/>
+                </properties>
+              </component>
+              <component id="f289a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="2.4.Эффективное использование трудовых ресурсов"/>
+                </properties>
+              </component>
+              <component id="1318b" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="d49f4" class="javax.swing.JTextField" binding="textField10" default-binding="true">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="68c4a" class="javax.swing.JTextField" binding="textField11" default-binding="true">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="b38e7" class="javax.swing.JTextField" binding="textField12" default-binding="true">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="8e606" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="3.1. Производительность"/>
+                </properties>
+              </component>
+              <component id="5191c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="3.2. Качество"/>
+                </properties>
+              </component>
+              <component id="c2876" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="3.3. Соблюдение сроков выполнения работ"/>
+                </properties>
+              </component>
+              <component id="8e89a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="3.4. Дисциплина"/>
+                </properties>
+              </component>
+              <component id="85c6" class="javax.swing.JTextField" binding="textField14" default-binding="true">
+                <constraints>
+                  <grid row="3" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="7e958" class="javax.swing.JTextField" binding="textField15" default-binding="true">
+                <constraints>
+                  <grid row="4" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="d90db" class="javax.swing.JTextField" binding="textField16" default-binding="true">
+                <constraints>
+                  <grid row="5" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="ed717" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14" style="3"/>
+                  <foreground color="-16777216"/>
+                  <text value="Личностно-деловые компетенции:"/>
+                </properties>
+              </component>
+              <component id="b6239" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14" style="3"/>
+                  <foreground color="-16777216"/>
+                  <text value="Проффесиональные компетенции:"/>
+                </properties>
+              </component>
+              <component id="5a0a6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14" style="3"/>
+                  <foreground color="-16777216"/>
+                  <text value="Результаты труда:"/>
+                </properties>
+              </component>
+              <component id="47ba2" class="javax.swing.JTextField" binding="textField13" default-binding="true">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="20" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="5be0b" class="javax.swing.JLabel" binding="label1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Руководитель"/>
+                </properties>
+              </component>
+              <component id="8124d" class="javax.swing.JTextField" binding="textField17" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="1ff6a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Табельный номер оцениваемого"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="57b5" class="javax.swing.JButton" binding="удалитьСвоиОценкиButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16777216"/>
+              <text value="Удалить свои оценки"/>
+            </properties>
+          </component>
+          <component id="1977c" class="javax.swing.JButton" binding="оценитьButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16777216"/>
+              <text value="Оценить"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

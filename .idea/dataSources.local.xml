@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Diploma@localhost" uuid="8385f789-17c8-4063-81fb-505ca518abfc">
+      <database-info product="Microsoft SQL Server" version="10.00.2531" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.2 for SQL Server" driver-version="7.2.1.0" family="MSSQL" exact-version="10.0.253">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <domain-auth>true</domain-auth>
+      <introspection-schemas>Diploma:dbo</introspection-schemas>
+    </data-source>
+  </component>
+</project>

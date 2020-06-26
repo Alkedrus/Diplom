@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: lib/graf.xlsx lib/mssql-jdbc-6.4.0.jre9.jar lib/poi-3.11 l
+ ib/poi-ooxml-3.11 lib/poi-ooxml-schemas-3.11 lib/stax-api-1.0.1 lib/x
+ mlbeans-2.6.0 lib/commons-codec-1.9
+Main-Class: staff.recruiment.Autorization
+
